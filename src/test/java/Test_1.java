@@ -6,7 +6,7 @@ public class Test_1 {
     public static final String basePath = "https://www.thecocktaildb.com/api/json/v1/%d/search.php?s=%s";
 
     @Test
-    public void whenLogRequest_thenOK() {
+    public void checkStatusCode() {
         given().log().all()
                 .when().get(String.format(basePath, 1, "margarita"))
                 .then().statusCode(200);
@@ -22,13 +22,13 @@ public class Test_1 {
     }
 
     @Test
-    public void invalidParkingSpace() {
+    public void invalidAPIKey() {
         given().when().get(String.format(basePath, 2, "margarita"))
                 .then().statusCode(404);
     }
 
     @Test
-    public void i() {
+    public void checkResponseIfSpaceInValue() {
         given().when().get(String.format(basePath, 1, "marga rita"))
                 .then().statusCode(200)
                 .body("drinks", equalTo(null));

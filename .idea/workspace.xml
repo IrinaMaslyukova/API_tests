@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03f97be8-e77b-4426-ab57-36154c1ad9f2" name="Default Changelist" comment="" />
+    <list default="true" id="03f97be8-e77b-4426-ab57-36154c1ad9f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test_2.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="584" />
+          <entry key="JAVA" value="677" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="42" />
         </counts>
@@ -56,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="540">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,13 +93,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test_1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test_2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test_1.java" />
       </list>
     </option>
   </component>
@@ -122,12 +129,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="150" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="194" />
+    <option name="y" value="38" />
     <option name="width" value="1226" />
-    <option name="height" value="733" />
+    <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -167,7 +175,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570351874303" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570367136821" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -185,13 +193,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test_2.ss">
-    <configuration name="Test_1.i" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Test_1">
+    <configuration name="Test_1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestTask" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test_1" />
-      <option name="METHOD_NAME" value="i" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -245,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Test_1.i" />
       <item itemvalue="TestNG.Test_1.invalidParkingSpace" />
       <item itemvalue="TestNG.Test_2.whenLogRequest_thenOK" />
       <item itemvalue="TestNG.Test_2.ss" />
       <item itemvalue="TestNG.Test_2" />
+      <item itemvalue="TestNG.Test_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test_1" />
         <item itemvalue="TestNG.Test_2.ss" />
         <item itemvalue="TestNG.Test_2" />
         <item itemvalue="TestNG.Test_2.whenLogRequest_thenOK" />
         <item itemvalue="TestNG.Test_1.invalidParkingSpace" />
-        <item itemvalue="TestNG.Test_1.i" />
       </list>
     </recent_temporary>
   </component>
@@ -316,9 +322,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="150" width="1226" height="733" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4142367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +339,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.50666666" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -358,20 +365,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test_1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="90">
+          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test_2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="540">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
